@@ -33,6 +33,7 @@ class ProductosController extends AppController
 
         $this->set(compact('productos'));
         $this->set('_serialize', ['productos']);
+        $this->render('Productos/index/');
     }
 
     /**
